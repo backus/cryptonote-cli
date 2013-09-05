@@ -3,7 +3,7 @@ cryptonote-cli
 
 Use CryptoNote from the command line:
 
-```shell
+```bash
 $ cryptonote 'I am using CryptoNote.org from the command line'
 https://cryptonote.org/messages/387213a5-1f2a-4b78-b8db-f1987644f95f?gen_password=hhIttjzTGeDnQc6vcfsdbo4WXirSBbAt
 ```
@@ -18,12 +18,12 @@ This depends on:
 
 Use [brew](http://brew.sh/) and [npm](https://npmjs.org/) to install:
 
-```shell
+```bash
 $ brew update
 $ brew install casperjs
 ```
 
-```shell
+```bash
 $ sudo npm install -g coffee-script
 ```
 
@@ -32,14 +32,14 @@ Setup
 
 Clone wherever:
 
-```shell
+```bash
 $ cd ~/Downloads
 $ git clone git@github.com:backus/cryptonote-cli.git
 ```
 
 Link the two files into your path:
 
-```shell
+```bash
 $ cd ~/usr/local/bin
 $ ln -s ~/Downloads/cryptonote-cli/cryptonote.coffee
 $ ln -s ~/Downloads/cryptonote-cli/cryptonote
@@ -53,7 +53,7 @@ Usage
 
 Open the command line and type:
 
-```shell
+```bash
 $ cryptonote 'YOUR SECRET MESSAGE'
 ```
 
