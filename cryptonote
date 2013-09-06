@@ -3,4 +3,4 @@
 # CryptoNote CLI .coffee path:
 cnpath="/usr/local/bin/"
 
-echo "$(casperjs $cnpath/cryptonote.coffee --message="$@")"
+casperjs $cnpath/cryptonote.coffee --message="$@"
