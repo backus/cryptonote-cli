@@ -64,11 +64,11 @@ Bonus
 
 I made this so I could create notes from [Alfred](http://www.alfredapp.com/). With cryptonote-cli I can now activate alfred via a hotkey and type my message like so:
 
-Picture #1
+![Alfred CryptoNote Usage](http://i.imgur.com/Tua0KSf.png)
 
 and a few seconds later Alfred copies the CryptoNote URL to my clipboard and notifies me:
 
-Picture #2
+![CryptoNote Notification](http://i.imgur.com/qG5JfTC.png)
 
 Setting Up CryptoNote + Alfred
 ------------------------------
