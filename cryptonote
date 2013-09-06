@@ -1,6 +1,6 @@
 #!/bin/sh
 
 # CryptoNote CLI .coffee path:
-cnpath="/usr/local/bin/"
+cnpath="/usr/local/bin"
 
 casperjs $cnpath/cryptonote.coffee --message="$@"
