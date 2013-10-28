@@ -3,4 +3,6 @@
 # CryptoNote CLI .coffee path:
 cnpath="/usr/local/bin"
 
-casperjs $cnpath/cryptonote.coffee --message="$@"
+url=`casperjs $cnpath/cryptonote.coffee --message="$@"`
+echo $url
+echo $url | pbcopy
