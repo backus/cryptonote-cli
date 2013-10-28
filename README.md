@@ -40,7 +40,7 @@ $ git clone git@github.com:backus/cryptonote-cli.git
 Link the two files into your path:
 
 ```bash
-$ cd ~/usr/local/bin
+$ cd /usr/local/bin
 $ ln -s ~/Downloads/cryptonote-cli/cryptonote.coffee
 $ ln -s ~/Downloads/cryptonote-cli/cryptonote
 $ chmod 777 cryptonote
