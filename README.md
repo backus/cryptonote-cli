@@ -20,10 +20,10 @@ Use [brew](http://brew.sh/) and [npm](https://npmjs.org/) to install:
 
 ```bash
 $ brew update
-$ brew install casperjs
 ```
 
 ```bash
+$ npm install -g casperjs@1.1.0-beta3
 $ sudo npm install -g coffee-script
 ```
 
