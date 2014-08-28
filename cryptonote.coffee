@@ -2,7 +2,7 @@ casper = require('casper').create()
 
 message = casper.cli.options.message
 
-casper.start 'https://cryptonote.org/', ->
+casper.start 'https://cryptonote.me/', ->
 	@evaluate( (message)->
 		$message = $ '#unencrypted-message'
 		$message.val(message).trigger 'keyup'
@@ -12,7 +12,7 @@ casper.start 'https://cryptonote.org/', ->
 	)
 
 casper.waitFor -> 
-	@getCurrentUrl() == 'https://cryptonote.org/messages'
+	@getCurrentUrl() == 'https://cryptonote.me/messages'
 
 casper.then ->
 	url = @evaluate ->
